@@ -1,0 +1,47 @@
+body {
+  height: 2000px;
+}
+.grid-geral {
+  display: grid;
+  gap: 20px;
+  grid:
+    "sidemenu conteudo anuncios"
+    /1fr 3fr 1fr;
+}
+
+.sidemenu-grid {
+  grid-area: sidemenu;
+}
+
+.conteudo-grid {
+  grid-area: conteudo;
+  background-color: blue;
+  height: 900px;
+}
+
+.anuncios-grid {
+  grid-area: anuncios;
+}
+
+@media (max-width: 1000px) {
+  .grid-geral {
+    display: grid;
+    gap: 20px;
+    grid:
+      "sidemenu sidemenu"
+      "conteudo anuncios"
+      /3fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-geral {
+    display: grid;
+    gap: 10px;
+    grid:
+      "sidemenu"
+      "conteudo"
+      "anuncios"
+      /1fr;
+  }
+}

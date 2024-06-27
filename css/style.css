@@ -1,0 +1,9 @@
+@import "./global.css";
+@import "./menu.css";
+@import "./sidemenu.css";
+@import "./anuncios.css";
+
+/* utilitários*/
+@import "../css/utilitarios/grid-geral.css";
+@import "../css/utilitarios/color.css";
+@import "../css/utilitarios/tipografia.css";
