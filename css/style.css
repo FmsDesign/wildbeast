@@ -2,6 +2,7 @@
 @import "./menu.css";
 @import "./sidemenu.css";
 @import "./anuncios.css";
+@import "./conteudo.css";
 
 /* utilitários*/
 @import "../css/utilitarios/grid-geral.css";
