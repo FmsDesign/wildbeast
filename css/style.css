@@ -3,6 +3,7 @@
 @import "./sidemenu.css";
 @import "./anuncios.css";
 @import "./conteudo.css";
+@import "./footer.css ";
 
 /* utilitários*/
 @import "../css/utilitarios/grid-geral.css";
