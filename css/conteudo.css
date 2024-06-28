@@ -80,6 +80,10 @@ blockquote p {
   font-weight: 600;
 }
 
+.conteudo-texto p:nth-child(1) {
+  margin-bottom: 20px;
+}
+
 .col-2 {
   grid-column: span 2;
 }

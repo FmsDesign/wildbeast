@@ -4,7 +4,7 @@
 
 .menu {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr auto;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -19,17 +19,16 @@
 
 .menu-link {
   display: flex;
-  justify-content: end;
   gap: 20px;
 }
 
-.menu-link li {
+.menu-link a {
   padding: 8px 16px;
   background-color: var(--cor-p2);
   border-radius: 4px;
 }
 
-.menu-link li:hover {
+.menu-link a:hover {
   background: var(--cor-p3);
 }
 
